@@ -12,6 +12,9 @@ class InvalidKindError(Exception):
 
 def get_random_ingredients(kind=None):
     """
+    Arguments:
+     king: optional argument for kind of ingredients 
+     
     Return a list of random ingredients as strings.
 
     :param kind: Optional "kind" of ingredients.
